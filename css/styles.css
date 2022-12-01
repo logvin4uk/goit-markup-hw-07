@@ -777,6 +777,10 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+
+  transition-property: visibility, opacity;
+  transition-duration: 500ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
